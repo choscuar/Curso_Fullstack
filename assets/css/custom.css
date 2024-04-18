@@ -1,0 +1,15 @@
+.fondo-contenedor {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    color: #ffffff;
+  }
+
+  .fondo_secundario{
+    background-color: red;
+    color: lime;
+  }
+
+  #contenedor_3 {
+    color: black;
+  }
