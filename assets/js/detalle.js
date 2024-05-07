@@ -2,7 +2,8 @@
   <head>
     <meta charset="utf-8" />
     <title>Mi Plataforma Fullstack</title>
-    <link href="./Curso_Fullstack/assets/css/custom.css" rel="stylesheet">
+    <link href="./assets/css/custom.css" rel="stylesheet">
+      </link>
   </head>
   <body>
     <div id="contenedor" class="fondo-contenedor">

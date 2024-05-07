@@ -2,23 +2,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Mi Plataforma Fullstack</title>
-    <style>
-      .fondo-contenedor {
-        width: 100%;
-        height: 100px;
-        background-color: blue;
-        color: #ffffff;
-      }
-
-      .fondo_secundario {
-        background-color: red;
-        color: lime;
-      }
-
-      #contenedor_3 {
-        color: black;
-      }
-    </style>
+    
   </head>
   <body>
     <div id="contenedor" class="fondo-contenedor">
