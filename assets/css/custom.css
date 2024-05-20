@@ -3,14 +3,23 @@
     height: 100px;
     background-color: blue;
     color: #ffffff;
+    margin: 5%; 
+    display: flex;
+    justify-content: center;
    
   }
 
   .fondo_secundario{
     background-color: red;
     color: lime;
+    display: flex;
+    justify-content: center;
+
   }
 
   #contenedor_3 {
     color: black;
+    display: flex;
+    justify-content: center;
+
   }
