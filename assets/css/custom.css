@@ -3,23 +3,29 @@
     height: 100px;
     background-color: blue;
     color: #ffffff;
-    margin: 5%; 
-    display: flex;
     justify-content: center;
-   
-  }
+    text-align: center;
+}
 
-  .fondo_secundario{
+.fondo_secundario{
     background-color: red;
     color: lime;
     display: flex;
     justify-content: center;
+}
 
-  }
-
-  #contenedor_3 {
+#contenedor_3 {
     color: black;
     display: flex;
     justify-content: center;
+}
 
-  }
+div{
+    font-size: 40px;
+    color: blue;
+}
+
+#padre_html4 h1{
+  color: black;
+  text-decoration: underline;
+}

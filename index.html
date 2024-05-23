@@ -5,7 +5,9 @@
     <link href="./assets/css/custom.css" rel="stylesheet">
   </head>
   <body>
-    <div id="contenedor" class="fondo-contenedor">
+    <div
+     id="contenedor"
+     class="fondo-contenedor">
       <h1>Programa Fullstack</h1>
     </div>
 
@@ -16,24 +18,37 @@
     >
       <h3>Centrado</h3>
     </div>
+
     <div
       id="contenedor_3"
-      class="#contenedor_3"
+      class="fondo_secundario"
       style="background-color: rgb(255, 0, 0); color: rgba(0, 0, 0, 0.996)"
     >
       <h3>Chivas</h3>
     </div>
-    <div
-      id="contenedor_4"
-      class="fondo-contenedor"
-      style="background-color: aquamarine; color: blueviolet"
-    >
-      <h3>Subtitulo 3</h3>
-    </div>
-    <div id="contenedor_5"
-         class="fondo_secundario">
 
-      <h3>Subtitulo 4</h3>
+    <div id="padre_html4">
+      <h1> ejemplo de HTML </h1>
+      <p>
+         Este sitio web proporciona enlaces a otros sitios web, algunos de las cuales están afiliados con otras organizaciones. Ofrecer enlaces a cualquier otro sitio web, incluyendo, sin limitación
+        </p>
     </div>
+
+    <div>
+      <input id="texto" value="" style="width: 100%;">
+      <br>
+      <button  onclick="captura_texto()">
+        Enviar
+      </button>
+    </div>
+
+    <script>
+      function captura_texto(){
+        var input_test = document.getElementById('texto').value;
+        console.log(input_test)
+        console.info('el input contiene: '+ input_test)
+        console.error('el input puede contener un error')
+      }
+    </script>
   </body>
 </html>
