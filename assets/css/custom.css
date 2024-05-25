@@ -8,10 +8,12 @@
 }
 
 .fondo_secundario{
+   
     background-color: red;
     color: lime;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 #contenedor_3 {
@@ -28,4 +30,11 @@ div{
 #padre_html4 h1{
   color: black;
   text-decoration: underline;
+}
+
+.alert-primary {
+    --bs-alert-color: var(--bs-primary-text-emphasis);
+    --bs-alert-bg: var(--bs-primary-bg-subtle);
+    --bs-alert-border-color: var(--bs-primary-border-subtle);
+    --bs-alert-link-color: var(--bs-primary-text-emphasis);
 }
