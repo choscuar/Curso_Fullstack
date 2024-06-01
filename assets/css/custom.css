@@ -34,7 +34,12 @@ div{
 
 .alert-primary {
     --bs-alert-color: var(--bs-primary-text-emphasis);
-    --bs-alert-bg: var(--bs-primary-bg-subtle);
+    background-color: blueviolet;
     --bs-alert-border-color: var(--bs-primary-border-subtle);
     --bs-alert-link-color: var(--bs-primary-text-emphasis);
+}
+
+.form-label{
+    background-color: aquamarine;
+    color: #000;
 }
