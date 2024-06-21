@@ -48,3 +48,8 @@ div{
     background-color: aquamarine;
 }
 
+.card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
